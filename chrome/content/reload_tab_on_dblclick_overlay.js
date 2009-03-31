@@ -1,7 +1,13 @@
 var reloadTabOnDblclick = {
-  init: function() {
-    getBrowser().mTabContainer.setAttribute("ondblclick", "if (event.originalTarget.localName != 'box') { if (event.shiftKey) BrowserReloadSkipCache(); else BrowserReload(); } else { this.parentNode.parentNode.parentNode.onTabBarDblClick(event); }");
+  reload: function(e) {
+    if (e.originalTarget.localName == 'tab' || e.originalTarget.parentNode.localName == 'tab') {
+      if (e.shiftKey) {
+        BrowserReloadSkipCache();
+      } else {
+        BrowserReload();
+      }
+    }
   }
-}
+};
 
-window.addEventListener("load", reloadTabOnDblclick.init, false);
+window.addEventListener("dblclick", reloadTabOnDblclick.reload, false);
