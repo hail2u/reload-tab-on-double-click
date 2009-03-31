@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description about="urn:mozilla:install-manifest">
+    <em:id>{aede9b05-c23c-479b-a90e-9146ed62d377}</em:id>
+    <em:version>1.0.7</em:version>
+
+    <em:targetApplication>
+      <RDF:Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>3.0.*</em:maxVersion>
+      </RDF:Description>
+    </em:targetApplication>
+
+    <em:name>Reload Tab On Double-Click</em:name>
+    <em:description>Reload tab when double-clicking on tab.</em:description>
+    <em:creator>Kyo Nagashima</em:creator>
+    <em:homepageURL>http://hail2u.net/archives/fxexts.html#reload_tab_on_dblclick</em:homepageURL>
+
+    <em:file>
+      <RDF:Description about="urn:mozilla:extension:file:reload_tab_on_dblclick.jar">
+        <em:package>content/reload_tab_on_dblclick/</em:package>
+      </RDF:Description>
+    </em:file>
+  </RDF:Description>
+</RDF:RDF>
