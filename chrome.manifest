@@ -1,2 +1,3 @@
-overlay	chrome://browser/content/browser.xul	chrome://reload_tab_on_dblclick/content/overlay.xul
 content	reload_tab_on_dblclick	content/
+
+overlay	chrome://browser/content/browser.xul	chrome://reload_tab_on_dblclick/content/overlay.xul
