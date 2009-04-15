@@ -7,7 +7,7 @@
     <em:version>1.0.7</em:version>
     <em:description>Reload tab when double-clicking on tab (skip cache with SHIFT key).</em:description>
     <em:creator>Kyo Nagashima</em:creator>
-    <em:homepageURL>http://hail2u.net/archives/fxexts.html#reload_tab_on_dblclick</em:homepageURL>
+    <em:homepageURL>http://hail2u.net/archives/fxexts.html#reload-tab-on-dblclick</em:homepageURL>
 
     <em:targetApplication>
       <Description>
