@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>{aede9b05-c23c-479b-a90e-9146ed62d377}</em:id>
     <em:name>Reload Tab On Double-Click</em:name>
-    <em:version>1.0.7</em:version>
+    <em:version>1.1</em:version>
     <em:description>Reload tab when double-clicking on tab (skip cache with SHIFT key).</em:description>
     <em:creator>Kyo Nagashima</em:creator>
     <em:homepageURL>http://hail2u.net/archives/fxexts.html#reload-tab-on-dblclick</em:homepageURL>
