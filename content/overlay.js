@@ -1,6 +1,8 @@
 var reloadTabOnDblclick = {
-  reload: function(e) {
-    if (e.originalTarget.localName == 'tab' || e.originalTarget.parentNode.localName == 'tab') {
+  reload: function (e) {
+    var t = e.originalTarget;
+
+    if (t.localName === 'tab' || t.parentNode.localName === 'tab') {
       if (e.shiftKey) {
         BrowserReloadSkipCache();
       } else {
