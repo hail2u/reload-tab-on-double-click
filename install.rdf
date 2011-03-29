@@ -4,16 +4,16 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>{aede9b05-c23c-479b-a90e-9146ed62d377}</em:id>
     <em:name>Reload Tab On Double-Click</em:name>
-    <em:version>1.2</em:version>
+    <em:version>1.2.1</em:version>
     <em:description>Reload tab when double-clicking on tab (skip cache with SHIFT key).</em:description>
     <em:creator>Kyo Nagashima</em:creator>
-    <em:homepageURL>http://hail2u.net/archives/fxexts.html#reload-tab-on-dblclick</em:homepageURL>
+    <em:homepageURL>http://hail2u.github.com/firefox-addons.html#reload-tab-on-dblclick</em:homepageURL>
 
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>3.0</em:minVersion>
-        <em:maxVersion>3.5.*</em:maxVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
